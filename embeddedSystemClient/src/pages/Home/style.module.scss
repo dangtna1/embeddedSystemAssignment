@@ -1,0 +1,15 @@
+.container {
+  min-height: 100%;
+  .wrapper {
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    .rightbar {
+      width: 350px;
+      max-width: 350px;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+  }
+}
